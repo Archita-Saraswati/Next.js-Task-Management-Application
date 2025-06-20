@@ -1,23 +1,34 @@
-# 📝 FocusFlow — Beautiful Next.js To-Do App
+# 📝 Next.js-Task-Management-Application 
 
-FocusFlow is a modern, visually stunning, and highly interactive to-do app built with the latest frontend technologies.  
-It’s designed to help you manage your day with clarity, elegance, and flow ✨.
+Task-Management-Application is a modern, responsive, and animated to-do list app designed to help you stay focused, prioritize your day, and manage your tasks beautifully.
 
-![FocusFlow Screenshot](./preview.png) <!-- Replace with actual screenshot path -->
-
----
 
 ## 🚀 Features
 
 - ✅ Add, edit, delete, and complete tasks
-- 🏷️ Assign **priority levels** (Low / Medium / High)
-- 📅 Set **due dates** using a calendar picker
-- 📂 Organize tasks by **category** (Personal, Work, College)
-- 🔍 Filter by **All / Active / Completed**
-- 🖱️ Drag-and-drop sorting
-- 💾 LocalStorage-based persistence
-- 🌙 Light/Dark mode toggle
-- ✨ Smooth animated transitions using Framer Motion
-- 🎨 Beautiful gradient + glassmorphism UI
+- 🏷️ Priority levels: **Low**, **Medium**, **High**
+- 📅 Due date picker
+- 📂 Categorize tasks (e.g., Personal, Work, College)
+- 🔍 Filter tasks: **All / Active / Completed**
+- 🌙 Toggle **light / dark mode**
+- 🖱️ Drag-and-drop support (reorder tasks)
+- 💾 Tasks saved with **LocalStorage**
+- ✨ Framer Motion animations
+- 🎨 Sleek UI with **glassmorphism** and **gradient background**
 
----
+
+
+## 🛠️ Built With
+
+| Technology | Description |
+|------------|-------------|
+| [**Next.js**](https://nextjs.org/) | React framework with App Router support (client components). |
+| [**Tailwind CSS**](https://tailwindcss.com/) | Utility-first CSS framework for fast and elegant design. |
+| [**Framer Motion**](https://www.framer.com/motion/) | Smooth animations for list transitions and UI elements. |
+| [**React Icons**](https://react-icons.github.io/react-icons/) | Beautiful icons from multiple libraries. |
+| [**React Beautiful DnD**](https://github.com/atlassian/react-beautiful-dnd) | Drag and drop functionality for reordering tasks. |
+| [**React DatePicker**](https://reactdatepicker.com/) | Lightweight and customizable date selector. |
+| **LocalStorage API** | Store tasks and settings persistently without a backend. |
+
+
+
